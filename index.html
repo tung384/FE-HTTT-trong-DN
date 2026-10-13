@@ -1,15 +1,28 @@
 <!doctype html>
 <html lang="vi">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Backline Khách hàng</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Backline Khách hàng</title>
+    <!-- Liên kết đến file định dạng giao diện CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="top"><div><span class="brand">Backline PC &amp; Laptop</span><span class="who" id="who"></span></div></div>
-<div class="wrap" id="app"></div>
-<div id="toast" role="status"></div>
-<script src="app.js"></script>
+    <!-- Thanh tiêu đề phía trên cùng của ứng dụng -->
+    <div class="top">
+        <div>
+            <span class="brand">Backline PC &amp; Laptop</span>
+            <span class="who" id="who"></span>
+        </div>
+    </div>
+
+    <!-- Khu vực hiển thị nội dung chính thay đổi động bằng JavaScript -->
+    <div class="wrap" id="app"></div>
+
+    <!-- Khung thông báo nhanh (Toast notification) ở góc màn hình -->
+    <div id="toast" role="status"></div>
+
+    <!-- Liên kết đến file xử lý logic JavaScript -->
+    <script src="app.js"></script>
 </body>
 </html>
